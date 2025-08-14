@@ -3018,6 +3018,7 @@ dependencies = [
  "listener",
  "log",
  "methods",
+ "risc0-zkp",
  "risc0-zkvm",
  "serde",
  "serde_json",
@@ -4088,7 +4089,9 @@ dependencies = [
 name = "methods"
 version = "0.1.0"
 dependencies = [
+ "hex",
  "risc0-build",
+ "risc0-zkvm",
 ]
 
 [[package]]
